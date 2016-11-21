@@ -1,21 +1,26 @@
 .contenedor{
-    outline: red 1px solid;
     margin: 0;
     padding: 0;
     background: #efefef;
 }
 
 header{
-    background: #f8e764;
+    background: #e8cf45;
     height: 500px;
     text-align: center;
     color: #fff;
     }
+.navbar{
+    padding-top: 3%;
+}
 
-.navbar .buttom{
-    background: #f0b107;
+.navbar .buttom a {
+    text-decoration: none;
+     background: #f0b107;
     color: #fff;
+    padding: 5%;
     }
+
 .list-nav li { 
     list-style: none;
     display: inline-block;
@@ -24,6 +29,12 @@ header{
 .list-nav a{
     text-decoration: none;
     color: #fff;
+    font-size: 15px;
+    margin: 5%;
+}
+
+.titulo{
+    margin: 10%;
 }
 
 /* fin header*/
@@ -47,6 +58,11 @@ header{
     margin: 0 auto;
 }
 
+.ejemplo h4{
+    padding: 40%;
+    color: #5f5858;
+}
+
 .ejemplo p{
     color: #e0d9d9;
 }
@@ -54,6 +70,7 @@ header{
 .ejemplo buttom{
     background: #f0b107;
     padding: 2%;
+    margin-left: 40%;
     }
 
 .ejemplo buttom a{
@@ -63,10 +80,12 @@ header{
 
 /* fin de hero */
 
-footer{
+footer {
     background: #000000;
-        }
-
+    color: white;
+    padding: 2%;
+    
+}
 
 
 
